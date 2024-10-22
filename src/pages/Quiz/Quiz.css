@@ -1,0 +1,47 @@
+#gamecontent {
+  justify-content: center;
+  gap: var(--ghub-gap-l);
+}
+
+.btnQuiz {
+  width: 20%;
+  padding: var(--ghub-padding-s);
+  border-radius: var(--ghub-primary-br);
+  cursor: pointer;
+}
+
+.question-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--ghub-gap-m);
+}
+
+.question-content > h3 {
+  color: var(--ghub-color-1);
+  font-size: large;
+  margin-top: var(--ghub-margin-s);
+  text-align: center;
+}
+
+#question-image {
+  width: 60%;
+  box-shadow: 10px 10px 22px 11px rgba(0, 0, 0, 0.75);
+}
+
+.btnResponse {
+  width: 80%;
+  padding: var(--ghub-padding-xs);
+  cursor: pointer;
+}
+
+.btnResponse:hover {
+  color: var(--ghub-color-1);
+  background-color: var(--ghub-color-2);
+}
+
+.result-content {
+  background-color: var(--ghub-color-1);
+  border-radius: var(--ghub-primary-br);
+  padding: var(--ghub-padding-s);
+}

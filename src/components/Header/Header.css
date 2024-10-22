@@ -1,0 +1,13 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: var(--ghub-padding-s);
+  margin: var(--ghub-margin-s);
+}
+
+.btnHeader {
+  width: 20%;
+  padding: var(--ghub-padding-s);
+  border-radius: var(--ghub-primary-br);
+  cursor: pointer;
+}

@@ -1,0 +1,55 @@
+.game-content > p {
+  color: var(--ghub-color-1);
+}
+
+.game-content > #result {
+  width: 100px;
+  text-align: center;
+  color: var(--ghub-color-2);
+  background-color: var(--ghub-color-1);
+}
+
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(3, 150px);
+  grid-template-rows: repeat(3, 150px);
+  gap: var(--ghub-gap-s);
+}
+
+.game-board > .cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 3px var(--ghub-color-1);
+  background-color: var(--ghub-color-1);
+  color: var(--ghub-color-2);
+  font-family: var(--ghub-font-family);
+  font-size: 80px;
+}
+
+#score-content {
+  display: flex;
+  gap: var(--ghub-gap-l);
+}
+
+#score-content > p {
+  color: var(--ghub-color-1);
+}
+
+.game-content > button {
+  padding: var(--ghub-padding-s);
+  border-radius: var(--ghub-primary-br);
+  cursor: pointer;
+}
+
+@media (max-width: 660px) {
+  .game-board {
+    grid-template-columns: repeat(3, 100px);
+  }
+}
+
+@media (max-width: 450px) {
+  .game-board {
+    grid-template-columns: repeat(3, 70px);
+  }
+}

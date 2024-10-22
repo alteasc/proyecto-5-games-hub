@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+:root {
+  /* PRIMARY COLORS */
+  --ghub-color-1: #ebdfd5;
+  --ghub-color-2: #1f1e1d;
+
+  /* FONTS */
+  --ghub-font-family: 'Inconsolata', sans-serif;
+
+  /* BORDER RADIUS */
+  --ghub-primary-br: 7px;
+  --ghub-secondary-br: 2px;
+
+  /* SPACINGS */
+  --ghub-margin-xs: 5px;
+  --ghub-margin-s: 10px;
+  --ghub-margin-m: 20px;
+  --ghub-margin-l: 30px;
+  --ghub-margin-xl: 40px;
+
+  --ghub-padding-xs: 5px;
+  --ghub-padding-s: 10px;
+  --ghub-padding-m: 20px;
+  --ghub-padding-l: 30px;
+  --ghub-padding-xl: 50px;
+
+  --ghub-gap-xs: 5px;
+  --ghub-gap-s: 10px;
+  --ghub-gap-m: 20px;
+  --ghub-gap-l: 30px;
+  --ghub-gap-xl: 40px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p,
+span,
+label,
+button,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--ghub-color-2);
+  font-family: var(--ghub-font-family);
+  font-size: medium;
+}
+
+body {
+  min-height: 100svh;
+  background-color: #de9f00;
+  background-image: url('https://www.transparenttextures.com/patterns/purty-wood.png');
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--ghub-margin-l);
+}
+
+.game-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--ghub-gap-m);
+  width: 80%;
+  height: 800px;
+  background-color: #003b13;
+  background-image: url('https://www.transparenttextures.com/patterns/light-wool.png');
+  box-shadow: -1px -1px 32px 11px rgba(31, 30, 29, 1);
+}
